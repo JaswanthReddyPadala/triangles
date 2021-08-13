@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hypotenuse</title>
+    <link rel="stylesheet" href="./styles/homestyle.css" />
+    <link rel="stylesheet" href="./build/styles.css" />
+  </head>
+  <body class="body">
+    <main class="main">
+      <div class="play-group">
+        <a href="./index.html" class="play-item">Triangle Check</a>
+        <a href="./hypotenuse.html" class="play-item">Check Hypotenuse</a>
+        <a href="./area.html" class="play-item">Calculate Area</a>
+        <a href="./quiz.html" class="play-item">Quiz Time</a>
+      </div>
+    </main>
+    <section>
+      <h1>Quiz on Triangles</h1>
+      <form class="quiz-input">
+        <div class="quiz-item">
+          <p>
+            1. What is the third angle for the triangle where angle1 = 45° and
+            angle2 = 45°?
+          </p>
+          <div>
+            <label for="q-1-1"
+              ><input
+                id="q-1-1"
+                type="radio"
+                name="q-1"
+                value="45deg"
+              />45°</label
+            >
+            <label for="q-1-2"
+              ><input
+                id="q-1-2"
+                type="radio"
+                name="q-1"
+                value="60deg"
+              />60°</label
+            >
+            <label for="q-1-3"
+              ><input
+                id="q-1-3"
+                type="radio"
+                name="q-1"
+                value="90deg"
+              />90°</label
+            >
+          </div>
+        </div>
+
+        <div class="quiz-item">
+          <p>2. An isosceles triangle has _____.</p>
+          <div>
+            <label for="q-2"
+              ><input type="radio" name="q-2" value="none" />
+              No congruent sides</label
+            >
+            <label for="q-2"
+              ><input type="radio" name="q-2" value="2" />2 congruent sides</label
+            >
+            <label for="q-2"
+              ><input type="radio" name="q-2" value="3" />3 congruent sides</label
+            >
+          </div>
+        </div>
+
+        <div class="quiz-item">
+          <p>3. This type of triangle has one 90 degree angle.</p>
+          <div>
+            <label for="q-3-1"
+              ><input type="radio" name="q-3-1" value="acute" />Acute</label
+            >
+            <label for="q-3-2"
+              ><input type="radio" name="q-3-2" value="right" />Right angled</label
+            >
+            <label for="q-3-3"
+              ><input type="radio" name="q-3-3" value="obtuse" />Obtuse</label
+            >
+          </div>
+        </div>
+
+        <div class="quiz-item">
+          <p>4. 
+            All 3 interior angles of a triangle add up to ______</p>
+          <div>
+            <label for="q-4-1"
+              ><input type="radio" name="q-4-1" value="90" />90 degrees</label
+            >
+            <label for="q-4-2"
+              ><input type="radio" name="q-4-2" value="180" />180 degrees</label
+            >
+            <label for="q-4-3"
+              ><input type="radio" name="q-4-3" value="360" />360 degrees</label
+            >
+          </div>
+        </div>
+
+        <div class="quiz-item">
+          <p>5. If a triangle has one angle of 38 degrees and other angle of 83 degrees, what should be the third angle to call it as triangle?</p>
+          <div>
+            <label for="q-5-1"
+              ><input type="radio" name="q-5-1" value="59" />59 degrees</label
+            >
+            <label for="q-5-2"
+              ><input type="radio" name="q-5-2" value="239" />239 degrees</label
+            >
+            <label for="q-5-3"
+              ><input type="radio" name="q-5-3" value="none" />none</label
+            >
+          </div>
+        </div>
+      </form>
+      <div class="sides-submit">
+        <button id="check-button">Check</button>
+        <p class="angles-output" id="output"></p>
+      </div>
+    </section>
+    <footer>
+      <p>2021 @ JaswanthReddyPadala </p>
+      <a href="https://github.com/JaswanthReddyPadala/"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/jaswanthreddypadala/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://twitter.com/jaswanthreddyp2"><i class="fab fa-twitter"></i></a>
+  </footer>
+  </body>
+  <script src="./js/quiz.js"></script>
+</html>

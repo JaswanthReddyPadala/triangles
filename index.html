@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triangles</title>
+    <link rel="stylesheet" href="./build/styles.css" />
+    <link
+      rel="stylesheet"
+      href="./styles/homestyle.css
+    "
+    />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  </head>
+  <body class="body">
+      <main class="main">
+        <div class="play-group">
+          <a href="./index.html" class="play-item">Triangle Check</a>
+          <a href="./hypotenuse.html" class="play-item">Check Hypotenuse</a>
+          <a href="./area.html" class="play-item">Calculate Area</a>
+          <a href="./quiz.html" class="play-item">Quiz Time</a>
+        </div> 
+      </main>
+
+      <section>
+        <h1>
+          Enter the angles(in degrees) in below and check whether if those
+          angles make a Triangle
+        </h1>
+        <p class="hint">Sum of all angles of a Triangles = 180<sup>o</sup></p>
+        <div class="angles-input">
+          <label for="first-angle">First Angle </label>
+          <input
+            type="number"
+            name="first-angle"
+            id="first-angle"
+            placeholder="First Angle"
+            required
+          />
+
+          <label for="second-angle">Second Angle </label>
+          <input
+            type="number"
+            name="second-angle"
+            id="second-angle"
+            placeholder="Second Angle"
+            required
+          />
+
+          <label for="third-angle">Third Angle </label>
+          <input
+            type="number"
+            name="third-angle"
+            id="third-angle"
+            placeholder="Third Angle"
+            required
+          />
+        </div>
+        <div class="angles-submit">
+          <button id="check-button">Check</button>
+          <p class="angles-output" id="output">Output here...</p>
+        </div>
+      </section>
+
+     
+      <footer>
+          <p>2021 @ JaswanthReddyPadala </p>
+          <a href="https://github.com/JaswanthReddyPadala/"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/jaswanthreddypadala/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://twitter.com/jaswanthreddyp2"><i class="fab fa-twitter"></i></a>
+      </footer>
+  </body>
+  <script src="./js/angles.js"></script>
+</html>

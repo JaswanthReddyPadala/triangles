@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angles of Triangles</title>
+    <link rel="stylesheet" href="./styles/homestyle.css" />
+    <link rel="stylesheet" href="./styles/anglesstyle.css" />
+  </head>
+  <body>
+    <div class="body">
+      <h3><a href="./index.html" class="go-home">< Go to Home</a></h3>
+      <h1>
+        Enter the angles in below and check whether if those angles make a
+        Triangle
+      </h1>
+      <div class="angles-input">
+        <input type="number" name="first-angle" id="first" placeholder="First Angle" required/>
+        <input type="number" name="second-angle" id="second" placeholder="Second Angle" required/>
+        <input type="number" name="third-angle" id="third" placeholder="Third Angle" required/>
+      </div>
+      <div class="angles-submit">
+        <button onclick="check()">Check</button>
+        <p class="angles-output" id="output">Output here...</p>
+      </div>
+    </div>
+  </body>
+  <script src="./js/angles.js"></script>
+</html>
