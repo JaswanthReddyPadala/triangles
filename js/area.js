@@ -1,3 +1,6 @@
+const checkButton = document.getElementById("check-button");
+checkButton.addEventListener("click", check);
+
 function check() {
   let base = document.getElementById("base").value;
   let height = document.getElementById("height").value;
@@ -12,3 +15,4 @@ function check() {
     alert("Enter all the values properly!");
   }
 }
+
