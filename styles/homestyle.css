@@ -72,6 +72,7 @@ input {
   height: 40px;
   padding: 0.2rem 0.5rem;
   margin-bottom:1rem;
+  background-color: #fff;
 }
 
 button {
@@ -106,13 +107,16 @@ section h1{
 }
 
 .quiz-item{
-  color:white;
   margin-bottom: 0.75rem;
+  background-color:#ffffffe9;
+  padding:0.5rem 1rem;
+  color:#181818;
 }
 
 .quiz-item div{
   display: flex;
   align-items: center;
+  
 }
 
 .quiz-item div label{
@@ -132,7 +136,6 @@ section h1{
 }
 
 label{
-  color:rgb(189, 189, 189);
   font-size: 1rem;
   margin-bottom: 10px;
 }

@@ -9,11 +9,20 @@ function calculateScore(){
     let score = 0;
     let index=0;
     const formResults = new FormData(Inputform);
+    console.log(formResults.entries())
+    let userAnswer = [];
     for(let answer of formResults.entries()){
-        if(answer[1] == correctAnwers[index]){
-            score++;
+        userAnswer.push(answer[1])
+    }
+    if(userAnswer.length === 5){
+        for(let index=0; index<5; index++){
+            if(correctAnwers[index] === userAnswer[index]){
+                score++;
+            }
         }
-        index++;
+    }
+    else{
+        alert("Please answer all questions, ⚠️No -ve Marking");
     }
     output.innerText = `Score : ${score}`;
 }
