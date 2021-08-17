@@ -123,10 +123,12 @@ section h1{
   display: flex;
   align-items: center;
   margin-right:1rem;
+  color:#181818;
 }
 
 .quiz-item div label input{
   margin-right:0.3rem;
+  margin-bottom: 0;
 }
 
 .angles-input, .sides-input{
@@ -138,6 +140,7 @@ section h1{
 label{
   font-size: 1rem;
   margin-bottom: 10px;
+  color:white;
 }
 
 .angles-submit, .sides-submit{
