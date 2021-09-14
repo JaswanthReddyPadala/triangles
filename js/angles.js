@@ -17,8 +17,12 @@ function check() {
   } else {
     first = 0;
     second = 0;
-    third = 0;
-    alert("Enter all the values properly!");
+    third= 0;
+    let result = document.getElementById("output")
+
+    result.style.backgroundColor = "black";
+    result.style.color = "white"
+    result.innerText = "Enter valid inputs"  
   }
 }
 

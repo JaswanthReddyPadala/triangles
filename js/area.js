@@ -10,9 +10,9 @@ function check() {
     let result = document.getElementById("output");
     result.innerText = `Gotcha!! The area of this triangle is ${area}.`;
   } else {
-    base.value = 0;
-    height.value = 0;
-    alert("Enter all the values properly!");
+    base = 0;
+    height = 0;
+    let result = document.getElementById("output");
+    result.innerText = `Enter valid inputs`;
   }
 }
-

@@ -10,7 +10,6 @@ function check() {
   first = Number(first);
   second = Number(second);
 
-  //   console.log(first, second, third);
   if (first > 0 && second > 0) {
     let hypotenuse = Math.sqrt(first * first + second * second).toFixed(2);
     let result = document.getElementById("output");
@@ -18,8 +17,8 @@ function check() {
   } else {
     first = 0;
     second = 0;
-    third = 0;
-    alert("Enter all the values properly!");
+    let result = document.getElementById("output");
+    result.innerText = "Enter all the values properly!";
   }
 }
 

@@ -20,11 +20,11 @@ function calculateScore(){
                 score++;
             }
         }
+        output.innerText = `Score : ${score}`;
     }
     else{
-        alert("Please answer all questions, ⚠️No -ve Marking");
+        output.innerText = ("Please answer all questions, ⚠️No -ve Marking");
     }
-    output.innerText = `Score : ${score}`;
 }
 
 checkButton.addEventListener("click", calculateScore);
